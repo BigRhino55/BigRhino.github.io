@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;   
+    height: 100%;
+    margin: 0;
+}
+#intro, #poem {
+    position: relative;
+    opacity: .60;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#intro {
+    background-image: url("img/me.jpg");
+    min-height: 400px;
+}
+#poem {
+    background-image: url("img/BlurryBackground.jpg");
+    min-height: 400px;
+}
+#personalInfo, #essay, #classSchedule{
+    color: #ddd;
+    background-color: #282E34;
+    padding: 30px 50px;
+    text-align: justify;
+}
+#caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+#thePoem {
+    background-color: transparent;
+    font-size: 15;
+    color: white;
+}
+#classTable {
+    background-color:beige;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+
+}
+th, td {
+    text-align: left;
+
+}
